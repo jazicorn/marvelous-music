@@ -1,0 +1,49 @@
+/*Archivo_Black*/
+@font-face {
+  font-family: 'ArchivoBlack';
+  src: url('./fonts/Archivo_Black/ArchivoBlack-Regular.ttf') format('truetype');
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+/*Public_Sans*/
+@font-face {
+  font-family: 'PublicSans';
+  src: url('./fonts/Public_Sans/PublicSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+/*Public_Sans-Italic*/
+@font-face {
+  font-family: 'PublicSans';
+  src: url('./fonts/Public_Sans/PublicSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: italic;
+}
+
+/*Font: Archivo_Black*/
+/*Default is font-weight: 400*/
+.font-archivo {
+  font-family: ArchivoBlack;
+  font-stretch: 75% 125%;
+}
+
+/*Font: Public_Sans*/
+/*Default is font-weight: 400*/
+.font-public-sans {
+  font-family: PublicSans;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+/*Font: Public_Sans*/
+/*Default is font-weight: 400*/
+.font-public-sans-italic {
+  font-family: PublicSans;
+  font-stretch: 75% 125%;
+  font-style: italic;
+}
